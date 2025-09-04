@@ -10,36 +10,14 @@ const useAuthStore = create(
       isLoading: false,
       
       // Login user
-      login: async (credentials) => {
-        set({ isLoading: true })
-        try {
-          // TODO: Replace with actual API call
-          const response = await fetch('/api/auth/login', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(credentials),
-          })
-          
-          if (response.ok) {
-            const data = await response.json()
-            set({
-              user: data.user,
-              token: data.token,
-              isAuthenticated: true,
-              isLoading: false
-            })
-            return { success: true }
-          } else {
-            const error = await response.json()
-            set({ isLoading: false })
-            return { success: false, error: error.message }
-          }
-        } catch (error) {
-          set({ isLoading: false })
-          return { success: false, error: 'Network error' }
-        }
+      login: (authData) => {
+        set({
+          user: authData.user,
+          token: authData.token,
+          isAuthenticated: true,
+          isLoading: false
+        })
+        return { success: true }
       },
       
       // Register user

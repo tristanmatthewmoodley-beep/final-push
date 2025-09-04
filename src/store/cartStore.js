@@ -73,7 +73,7 @@ const useCartStore = create(
       // Get cart totals
       getCartTotal: () => {
         return get().items.reduce((total, item) => {
-          const price = parseFloat(item.price.replace('$', ''))
+          const price = parseFloat(item.price.replace('R', ''))
           return total + (price * item.quantity)
         }, 0)
       },

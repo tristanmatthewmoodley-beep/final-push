@@ -2,846 +2,2471 @@
   {
     "id": 1,
     "name": "*Fitting Position: Left Front/Left Rear",
-    "price": "$553.50",
+    "price": "R553.50",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A13108",
     "description": "VOLKSWAGEN *Fitting Position: Left Front/Left Rear",
-    "rating": "4.7",
-    "image": "/api/placeholder/300/200",
-    "inStock": true,
-    "stockQuantity": 50
+    "rating": "4.3",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": false,
+    "stockQuantity": 20,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.9kg",
+      "dimensions": "19cm x 11cm x 13cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 11,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13108",
+    "barcode": "5991916874549",
+    "installationTime": "127 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 2,
     "name": "FILTER KIT (AIR/OIL)",
-    "price": "$263.25",
+    "price": "R263.25",
     "category": "Engine",
     "brand": "NISSAN",
     "productCode": "R1701",
     "description": "*Rectangle Short Type Air Filter",
-    "rating": "4.3",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.4",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 44
+    "stockQuantity": 28,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.5kg",
+      "dimensions": "12cm x 21cm x 12cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with NISSAN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 107,
+    "tags": [
+      "Engine",
+      "NISSAN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R1701",
+    "barcode": "2469555687525",
+    "installationTime": "75 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 3,
     "name": "FILTER KIT (AIR/OIL/CABIN)",
-    "price": "$371.25",
+    "price": "R371.25",
     "category": "Engine",
     "brand": "RENAULT",
     "productCode": "R1703",
     "description": "RENAULT FILTER KIT (AIR/OIL/CABIN)",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.1",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 52
+    "stockQuantity": 40,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.0kg",
+      "dimensions": "17cm x 23cm x 6cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 201,
+    "tags": [
+      "Engine",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R1703",
+    "barcode": "2613938201227",
+    "installationTime": "133 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 4,
     "name": "FILTER KIT (AIR/OIL/FUEL/CABIN)",
-    "price": "$600.75",
+    "price": "R600.75",
     "category": "Engine",
     "brand": "TOYOTA",
     "productCode": "T4683A",
     "description": "TOYOTA FILTER KIT (AIR/OIL/FUEL/CABIN)",
-    "rating": "3.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 37
+    "stockQuantity": 53,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.4kg",
+      "dimensions": "31cm x 10cm x 13cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with TOYOTA vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 74,
+    "tags": [
+      "Engine",
+      "TOYOTA",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-T4683A",
+    "barcode": "2369566566487",
+    "installationTime": "124 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 5,
     "name": "FILTER KIT (AIR/OIL/FUEL/CABIN)",
-    "price": "$762.75",
+    "price": "R762.75",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A13523",
     "description": "VOLKSWAGEN FILTER KIT (AIR/OIL/FUEL/CABIN)",
-    "rating": "5.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 36
+    "stockQuantity": 52,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.1kg",
+      "dimensions": "29cm x 8cm x 8cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 31,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13523",
+    "barcode": "1408248181724",
+    "installationTime": "31 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 6,
     "name": "FILTER KIT (AIR/OIL/FUEL)",
-    "price": "$229.50",
+    "price": "R229.50",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A12631",
     "description": "*Carburetor",
-    "rating": "3.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 52
+    "stockQuantity": 24,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.1kg",
+      "dimensions": "25cm x 20cm x 16cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 155,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A12631",
+    "barcode": "8493902139115",
+    "installationTime": "36 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 7,
     "name": "VW Golf/Jetta MK4/Beetle/",
-    "price": "$303.75",
+    "price": "R303.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A1834",
     "description": "VOLKSWAGEN VW Golf/Jetta MK4/Beetle/",
-    "rating": "4.2",
-    "image": "/api/placeholder/300/200",
+    "rating": "5.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 33
+    "stockQuantity": 12,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.6kg",
+      "dimensions": "20cm x 12cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 180,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A1834",
+    "barcode": "1234217971827",
+    "installationTime": "120 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 8,
     "name": "VW Polo 5 (6C)/",
-    "price": "$344.25",
+    "price": "R344.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A13873A",
     "description": "VOLKSWAGEN VW Polo 5 (6C)/",
-    "rating": "4.1",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 16
+    "stockQuantity": 48,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.9kg",
+      "dimensions": "10cm x 22cm x 10cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 183,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13873A",
+    "barcode": "4919907320253",
+    "installationTime": "110 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 9,
     "name": "*Fitting Position: Front",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A12286",
     "description": "*Primed",
-    "rating": "4.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.3",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 24
+    "stockQuantity": 26,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.2kg",
+      "dimensions": "35cm x 18cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 82,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A12286",
+    "barcode": "1692791119966",
+    "installationTime": "126 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 10,
     "name": "*Fitting Position: Front",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A13768",
     "description": "*Excluding GTi *Without PDC",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 51
+    "stockQuantity": 19,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.1kg",
+      "dimensions": "35cm x 24cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 113,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13768",
+    "barcode": "9089289365894",
+    "installationTime": "105 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 11,
     "name": "*Fitting Position: Front",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A12286",
     "description": "*Primed",
     "rating": "4.8",
-    "image": "/api/placeholder/300/200",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 30
+    "stockQuantity": 38,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.8kg",
+      "dimensions": "39cm x 15cm x 10cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 47,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A12286",
+    "barcode": "7052017564780",
+    "installationTime": "44 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 12,
     "name": "*Fitting Position: Front",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A13768",
     "description": "*Excluding GTi *Without PDC",
-    "rating": "4.2",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 5
+    "stockQuantity": 10,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.5kg",
+      "dimensions": "29cm x 21cm x 4cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 59,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13768",
+    "barcode": "9974435973708",
+    "installationTime": "131 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 13,
     "name": "VW Polo 2/3/4/Vivo 1.4/1.6",
-    "price": "$114.75",
+    "price": "R114.75",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A5307",
     "description": "*Engine Codes: BAH/BLM/CLP/CLS",
-    "rating": "3.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 44
+    "stockQuantity": 26,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.9kg",
+      "dimensions": "37cm x 19cm x 3cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 89,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5307",
+    "barcode": "3293655945102",
+    "installationTime": "141 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 14,
     "name": "VW Golf/Jetta MK1/2/3",
-    "price": "$113.40",
+    "price": "R113.40",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A012",
     "description": "VOLKSWAGEN VW Golf/Jetta MK1/2/3",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 19
+    "stockQuantity": 37,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.9kg",
+      "dimensions": "31cm x 16cm x 15cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 79,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A012",
+    "barcode": "6494945509809",
+    "installationTime": "85 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 15,
     "name": "VW Golf/Jetta MK4/5/Polo 2/3/",
-    "price": "$249.75",
+    "price": "R249.75",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A4272",
     "description": "*Engine Code: AXB",
     "rating": "4.3",
-    "image": "/api/placeholder/300/200",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 13
+    "stockQuantity": 20,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.0kg",
+      "dimensions": "29cm x 6cm x 7cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 26,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A4272",
+    "barcode": "7493706331606",
+    "installationTime": "124 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 16,
     "name": "VW Golf/Jetta MK6/7/Amarok/Polo 5/",
-    "price": "$105.30",
+    "price": "R105.30",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A9446",
     "description": "VOLKSWAGEN VW Golf/Jetta MK6/7/Amarok/Polo 5/",
-    "rating": "3.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 11
+    "stockQuantity": 20,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.0kg",
+      "dimensions": "38cm x 23cm x 14cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 126,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A9446",
+    "barcode": "7189975588205",
+    "installationTime": "80 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 17,
     "name": "VW Golf/Jetta MK5/6/7/",
-    "price": "$128.25",
+    "price": "R128.25",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A5306",
     "description": "*Engine Codes: CDH/BWA/CCZ/CDN",
-    "rating": "3.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.1",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 34
+    "stockQuantity": 42,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.0kg",
+      "dimensions": "38cm x 14cm x 4cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 24,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5306",
+    "barcode": "9474204566790",
+    "installationTime": "109 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 18,
     "name": "VW Polo 4/Vivo/Jetta 1.6",
-    "price": "$560.25",
+    "price": "R560.25",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A14786A",
     "description": "*Engine Codes: CLSA/CLRA",
-    "rating": "4.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "5.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 11
+    "stockQuantity": 45,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.8kg",
+      "dimensions": "15cm x 6cm x 14cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 191,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A14786A",
+    "barcode": "8355294005732",
+    "installationTime": "107 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 19,
     "name": "VW Golf/Jetta MK6/Amarok/",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A12571",
     "description": "*Engine Codes: CCZ/CDN/CFP",
-    "rating": "5.0",
-    "image": "/api/placeholder/300/200",
-    "inStock": false,
-    "stockQuantity": 49
+    "rating": "3.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": true,
+    "stockQuantity": 40,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.9kg",
+      "dimensions": "25cm x 9cm x 8cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 77,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A12571",
+    "barcode": "2842630191670",
+    "installationTime": "72 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 20,
     "name": "VW Golf MK7/Polo 5/",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A10323",
     "description": "*Engine Codes: CXS/CZC/CJZ",
-    "rating": "3.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.7",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 51
+    "stockQuantity": 50,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.4kg",
+      "dimensions": "38cm x 12cm x 13cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 209,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A10323",
+    "barcode": "4082460377583",
+    "installationTime": "128 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 21,
     "name": "BRAKE LIGHT SWITCH",
-    "price": "$222.75",
+    "price": "R222.75",
     "category": "Brakes",
     "brand": "Audi A3",
     "productCode": "A3600",
     "description": "*New Version",
-    "rating": "3.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.6",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 22
+    "stockQuantity": 35,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.6kg",
+      "dimensions": "38cm x 17cm x 4cm",
+      "material": "Ceramic/Steel",
+      "compatibility": "Compatible with Audi A3 vehicles",
+      "features": [
+        "Superior stopping power",
+        "Low dust formula",
+        "Noise-free operation",
+        "Extended lifespan"
+      ]
+    },
+    "reviews": 96,
+    "tags": [
+      "Brakes",
+      "Audi A3",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A3600",
+    "barcode": "9767580203529",
+    "installationTime": "84 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 22,
     "name": "VW Polo 4/Vivo 1.4/1.6 16v",
-    "price": "$830.25",
+    "price": "R830.25",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A6248",
     "description": "*Engine Codes: CLP/CLS",
-    "rating": "5.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 18
+    "stockQuantity": 54,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.1kg",
+      "dimensions": "23cm x 12cm x 11cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 78,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A6248",
+    "barcode": "6796236520927",
+    "installationTime": "116 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 23,
     "name": "VW MK7/Polo 5/6/",
-    "price": "$2.70",
+    "price": "R2.70",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A8379",
     "description": "*5 Pipe",
-    "rating": "4.1",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 31
+    "stockQuantity": 30,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.4kg",
+      "dimensions": "28cm x 21cm x 5cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 110,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A8379",
+    "barcode": "7106691143566",
+    "installationTime": "67 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 24,
     "name": "VW Golf MK7/Tiguan/Audi A3/4 1.8/2.0",
-    "price": "$6.75",
+    "price": "R6.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A11729A",
     "description": "*With Housing",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 35
+    "stockQuantity": 25,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.2kg",
+      "dimensions": "28cm x 11cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 207,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A11729A",
+    "barcode": "8457972562408",
+    "installationTime": "36 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 25,
     "name": "VW Golf/Jetta MK5/Polo 4/",
-    "price": "$1.35",
+    "price": "R1.35",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A7297B",
     "description": "*Engine Codes: CLSA/CLPA/BBX",
-    "rating": "4.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.1",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 39
+    "stockQuantity": 14,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.6kg",
+      "dimensions": "15cm x 15cm x 9cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 16,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A7297B",
+    "barcode": "8130641854974",
+    "installationTime": "146 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 26,
     "name": "*Fitting Position: Rear",
-    "price": "$182.25",
+    "price": "R182.25",
     "category": "Auto Parts",
     "brand": "AUDI",
     "productCode": "A12246",
     "description": "*Size: 350mm",
-    "rating": "3.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "5.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 24
+    "stockQuantity": 28,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.2kg",
+      "dimensions": "38cm x 17cm x 5cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with AUDI vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 47,
+    "tags": [
+      "Auto Parts",
+      "AUDI",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A12246",
+    "barcode": "2062562842210",
+    "installationTime": "149 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 27,
     "name": "*Fitting Position: Rear",
-    "price": "$222.75",
+    "price": "R222.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A9079A",
     "description": "*Size: 280mm",
-    "rating": "4.3",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.7",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 15
+    "stockQuantity": 22,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.6kg",
+      "dimensions": "35cm x 11cm x 10cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 136,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A9079A",
+    "barcode": "3605818299789",
+    "installationTime": "113 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 28,
     "name": "*Fitting Position: Rear",
-    "price": "$182.25",
+    "price": "R182.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A14268",
     "description": "*Size: 380mm",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 28
+    "stockQuantity": 27,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.5kg",
+      "dimensions": "25cm x 6cm x 7cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 76,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A14268",
+    "barcode": "3595462546420",
+    "installationTime": "121 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 29,
     "name": "Porsche Macan 2008 Onwards",
-    "price": "$641.25",
+    "price": "R641.25",
     "category": "Auto Parts",
     "brand": "AUDI",
     "productCode": "A9139",
     "description": "AUDI Porsche Macan 2008 Onwards",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.7",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 34
+    "stockQuantity": 49,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.7kg",
+      "dimensions": "34cm x 5cm x 11cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with AUDI vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 36,
+    "tags": [
+      "Auto Parts",
+      "AUDI",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A9139",
+    "barcode": "7548441091113",
+    "installationTime": "139 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 30,
     "name": "VW Tiguan 2008 Up To 2017",
-    "price": "$722.25",
+    "price": "R722.25",
     "category": "Auto Parts",
     "brand": "BMW",
     "productCode": "A14271",
     "description": "BMW VW Tiguan 2008 Up To 2017",
-    "rating": "3.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 15
+    "stockQuantity": 8,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.4kg",
+      "dimensions": "26cm x 6cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with BMW vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 176,
+    "tags": [
+      "Auto Parts",
+      "BMW",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A14271",
+    "barcode": "3140232180281",
+    "installationTime": "44 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 31,
     "name": "VW Golf/Jetta MK5/6",
-    "price": "$506.25",
+    "price": "R506.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A7665",
     "description": "*Clip On",
-    "rating": "3.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 27
+    "stockQuantity": 14,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.0kg",
+      "dimensions": "31cm x 23cm x 9cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 67,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A7665",
+    "barcode": "2937600231606",
+    "installationTime": "125 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 32,
     "name": "*Engine Code: MR16DDT",
-    "price": "$479.25",
+    "price": "R479.25",
     "category": "Engine",
     "brand": "NISSAN",
     "productCode": "R2556",
     "description": "NISSAN *Engine Code: MR16DDT",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.7",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 23
+    "stockQuantity": 47,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.9kg",
+      "dimensions": "21cm x 5cm x 13cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with NISSAN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 14,
+    "tags": [
+      "Engine",
+      "NISSAN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R2556",
+    "barcode": "7953546516897",
+    "installationTime": "120 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 33,
     "name": "Kadjar 0.9/1.2i",
-    "price": "$398.25",
+    "price": "R398.25",
     "category": "Auto Parts",
     "brand": "RENAULT",
     "productCode": "R0728B",
     "description": "RENAULT Kadjar 0.9/1.2i",
-    "rating": "3.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 54
+    "stockQuantity": 6,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.4kg",
+      "dimensions": "21cm x 10cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 19,
+    "tags": [
+      "Auto Parts",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R0728B",
+    "barcode": "4022240501447",
+    "installationTime": "38 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 34,
     "name": "*Engine Codes: 1/3/4ZZ/4AFE/1/2NZ",
-    "price": "$49.95",
+    "price": "R49.95",
     "category": "Engine",
     "brand": "TOYOTA",
     "productCode": "T3279B",
     "description": "TOYOTA *Engine Codes: 1/3/4ZZ/4AFE/1/2NZ",
-    "rating": "3.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 10
+    "stockQuantity": 36,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.6kg",
+      "dimensions": "21cm x 8cm x 7cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with TOYOTA vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 42,
+    "tags": [
+      "Engine",
+      "TOYOTA",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-T3279B",
+    "barcode": "2255925680551",
+    "installationTime": "86 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 35,
     "name": "*Engine Codes: 1/2TR/1KR/1GR",
-    "price": "$56.70",
+    "price": "R56.70",
     "category": "Engine",
     "brand": "TOYOTA",
     "productCode": "T1179B",
     "description": "TOYOTA *Engine Codes: 1/2TR/1KR/1GR",
-    "rating": "4.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 13
+    "stockQuantity": 33,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.6kg",
+      "dimensions": "18cm x 20cm x 17cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with TOYOTA vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 153,
+    "tags": [
+      "Engine",
+      "TOYOTA",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-T1179B",
+    "barcode": "4398647798820",
+    "installationTime": "59 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 36,
     "name": "VW Golf/Jetta MK1/2/3",
-    "price": "$17.55",
+    "price": "R17.55",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A1486A",
     "description": "*Carburetor",
-    "rating": "4.6",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.4",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 27
+    "stockQuantity": 15,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.4kg",
+      "dimensions": "23cm x 12cm x 17cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 142,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A1486A",
+    "barcode": "2326833810332",
+    "installationTime": "41 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 37,
     "name": "VW Golf/Jetta MK6/Tiguan/Audi A1/3 1.4 TSi",
-    "price": "$229.50",
+    "price": "R229.50",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A10955B",
     "description": "*Engine Codes: CAX/CAV/CTH",
-    "rating": "4.5",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.3",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 19
+    "stockQuantity": 34,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.9kg",
+      "dimensions": "12cm x 16cm x 13cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 44,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A10955B",
+    "barcode": "5837570170130",
+    "installationTime": "65 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 38,
     "name": "VW Golf/Jetta MK4/Polo 3 GTi",
-    "price": "$1275.75",
+    "price": "R1275.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A5291",
     "description": "*Steel Rod",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 21
+    "stockQuantity": 36,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.5kg",
+      "dimensions": "39cm x 16cm x 5cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 190,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5291",
+    "barcode": "5874222658846",
+    "installationTime": "35 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 39,
     "name": "VW Golf/Jetta MK5/6",
-    "price": "$1073.25",
+    "price": "R1073.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A3651",
     "description": "*MQ200 *5/6 Speed",
-    "rating": "4.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": false,
-    "stockQuantity": 20
+    "stockQuantity": 28,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.3kg",
+      "dimensions": "26cm x 6cm x 14cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 165,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A3651",
+    "barcode": "1314380348888",
+    "installationTime": "109 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 40,
     "name": "VW Golf/Jetta MK5/6/7/Caddy/Audi A3",
-    "price": "$870.75",
+    "price": "R870.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A4860",
     "description": "*MQ250 *5/6 Speed",
-    "rating": "4.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 44
+    "stockQuantity": 54,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.5kg",
+      "dimensions": "20cm x 6cm x 11cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 139,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A4860",
+    "barcode": "9496542575821",
+    "installationTime": "114 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 41,
     "name": "Sandero 2 2013 Onwards",
-    "price": "$128.25",
+    "price": "R128.25",
     "category": "Auto Parts",
     "brand": "RENAULT",
     "productCode": "R0702",
     "description": "RENAULT Sandero 2 2013 Onwards",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
-    "inStock": true,
-    "stockQuantity": 29
+    "rating": "3.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": false,
+    "stockQuantity": 16,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.0kg",
+      "dimensions": "26cm x 21cm x 14cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 175,
+    "tags": [
+      "Auto Parts",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R0702",
+    "barcode": "5729246683296",
+    "installationTime": "100 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 42,
     "name": "VW Golf/Jetta MK5/6/Caddy/Tiguan/",
-    "price": "$222.75",
+    "price": "R222.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A3959",
     "description": "VOLKSWAGEN VW Golf/Jetta MK5/6/Caddy/Tiguan/",
-    "rating": "3.9",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 49
+    "stockQuantity": 8,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.4kg",
+      "dimensions": "34cm x 6cm x 8cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 89,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A3959",
+    "barcode": "5334578573380",
+    "installationTime": "89 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 43,
     "name": "VW Golf MK7/Tiguan/",
-    "price": "$243.00",
+    "price": "R243.00",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A10932",
     "description": "VOLKSWAGEN VW Golf MK7/Tiguan/",
-    "rating": "4.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 29
+    "stockQuantity": 38,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.0kg",
+      "dimensions": "19cm x 10cm x 5cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 182,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A10932",
+    "barcode": "9176401567459",
+    "installationTime": "148 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 44,
     "name": "VW Polo 2/3",
-    "price": "$105.30",
+    "price": "R105.30",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A3161A",
     "description": "VOLKSWAGEN VW Polo 2/3",
-    "rating": "4.5",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.1",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 49
+    "stockQuantity": 43,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.7kg",
+      "dimensions": "26cm x 20cm x 14cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 126,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A3161A",
+    "barcode": "5393781490541",
+    "installationTime": "115 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 45,
     "name": "VW Amarok/T5/6/Touareg/",
-    "price": "$209.25",
+    "price": "R209.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A6951",
     "description": "VOLKSWAGEN VW Amarok/T5/6/Touareg/",
     "rating": "4.1",
-    "image": "/api/placeholder/300/200",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 7
+    "stockQuantity": 54,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.8kg",
+      "dimensions": "16cm x 12cm x 16cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 116,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A6951",
+    "barcode": "8275962636716",
+    "installationTime": "69 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 46,
     "name": "2011 Up To 2015",
-    "price": "$317.25",
+    "price": "R317.25",
     "category": "Auto Parts",
     "brand": "HYUNDAI",
     "productCode": "H149",
     "description": "HYUNDAI 2011 Up To 2015",
-    "rating": "3.5",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 36
+    "stockQuantity": 10,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.1kg",
+      "dimensions": "37cm x 23cm x 11cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with HYUNDAI vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 87,
+    "tags": [
+      "Auto Parts",
+      "HYUNDAI",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-H149",
+    "barcode": "6796092594785",
+    "installationTime": "139 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 47,
     "name": "X-Trail 3 1.2-2.5i/D 2015 Onwards",
-    "price": "$411.75",
+    "price": "R411.75",
     "category": "Auto Parts",
     "brand": "RENAULT",
     "productCode": "R0796",
     "description": "RENAULT X-Trail 3 1.2-2.5i/D 2015 Onwards",
-    "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 21
+    "stockQuantity": 39,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.5kg",
+      "dimensions": "29cm x 9cm x 17cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 173,
+    "tags": [
+      "Auto Parts",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R0796",
+    "barcode": "5663067474043",
+    "installationTime": "90 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 48,
     "name": "VW Golf/Jetta MK4/Beetle/Audi A3 TDi",
-    "price": "$189.00",
+    "price": "R189.00",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A1605",
     "description": "VOLKSWAGEN VW Golf/Jetta MK4/Beetle/Audi A3 TDi",
-    "rating": "3.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 27
+    "stockQuantity": 12,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.3kg",
+      "dimensions": "25cm x 8cm x 14cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 17,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A1605",
+    "barcode": "8504590104322",
+    "installationTime": "68 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 49,
     "name": "VW Golf/Jetta MK5/Audi A3/4 2.0 FSi",
-    "price": "$276.75",
+    "price": "R276.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A3765",
     "description": "VOLKSWAGEN VW Golf/Jetta MK5/Audi A3/4 2.0 FSi",
-    "rating": "3.6",
-    "image": "/api/placeholder/300/200",
-    "inStock": false,
-    "stockQuantity": 13
+    "rating": "3.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": true,
+    "stockQuantity": 24,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.6kg",
+      "dimensions": "30cm x 20cm x 4cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 72,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A3765",
+    "barcode": "9678490877666",
+    "installationTime": "122 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 50,
     "name": "VW Golf MK7/Polo 5 1.2/1.4 TSi",
-    "price": "$344.25",
+    "price": "R344.25",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A8367",
     "description": "*Engine Codes: CJZA/CXSA/CMBA",
-    "rating": "4.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 18
+    "stockQuantity": 24,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.9kg",
+      "dimensions": "23cm x 15cm x 13cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 31,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A8367",
+    "barcode": "3024962963397",
+    "installationTime": "67 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 51,
     "name": "Datsun GO 1.2/1.5/1.6i 2011 Onwards",
-    "price": "$148.50",
+    "price": "R148.50",
     "category": "Auto Parts",
     "brand": "RENAULT",
     "productCode": "R1051",
     "description": "RENAULT Datsun GO 1.2/1.5/1.6i 2011 Onwards",
-    "rating": "4.3",
-    "image": "/api/placeholder/300/200",
-    "inStock": true,
-    "stockQuantity": 32
+    "rating": "3.7",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": false,
+    "stockQuantity": 10,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "5.5kg",
+      "dimensions": "22cm x 17cm x 13cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 188,
+    "tags": [
+      "Auto Parts",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R1051",
+    "barcode": "1119709124578",
+    "installationTime": "101 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 52,
     "name": "VW Polo 2/3 1.4/1.6",
-    "price": "$162.00",
+    "price": "R162.00",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A2632",
     "description": "*Engine Codes: BLM/BBY/BAH",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
-    "inStock": false,
-    "stockQuantity": 24
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": true,
+    "stockQuantity": 11,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.8kg",
+      "dimensions": "29cm x 20cm x 15cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 97,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A2632",
+    "barcode": "4590500654903",
+    "installationTime": "88 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 53,
     "name": "*Fitting Position: LH/RH",
-    "price": "$452.25",
+    "price": "R452.25",
     "category": "Auto Parts",
     "brand": "RENAULT",
     "productCode": "R1335",
     "description": "*Fitting Position: Front LH/RH",
-    "rating": "4.1",
-    "image": "/api/placeholder/300/200",
-    "inStock": false,
-    "stockQuantity": 48
+    "rating": "4.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": true,
+    "stockQuantity": 20,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.8kg",
+      "dimensions": "18cm x 17cm x 10cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with RENAULT vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 26,
+    "tags": [
+      "Auto Parts",
+      "RENAULT",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-R1335",
+    "barcode": "5506585113706",
+    "installationTime": "79 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 54,
     "name": "*Fitting Position: Front LH/RH",
-    "price": "$195.75",
+    "price": "R195.75",
     "category": "Auto Parts",
     "brand": "TOYOTA",
     "productCode": "T0284",
     "description": "TOYOTA *Fitting Position: Front LH/RH",
-    "rating": "3.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 11
+    "stockQuantity": 29,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.6kg",
+      "dimensions": "23cm x 15cm x 8cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with TOYOTA vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 59,
+    "tags": [
+      "Auto Parts",
+      "TOYOTA",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-T0284",
+    "barcode": "6149835776174",
+    "installationTime": "76 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 55,
     "name": "*Fitting Position: Front LH/RH",
-    "price": "$290.25",
+    "price": "R290.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A4408",
     "description": "VOLKSWAGEN *Fitting Position: Front LH/RH",
     "rating": "4.4",
-    "image": "/api/placeholder/300/200",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 25
+    "stockQuantity": 45,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "2.8kg",
+      "dimensions": "11cm x 10cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 173,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A4408",
+    "barcode": "5450031929287",
+    "installationTime": "66 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 56,
     "name": "*Fitting Position: Front LH/RH",
-    "price": "$330.75",
+    "price": "R330.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A4458",
     "description": "VOLKSWAGEN *Fitting Position: Front LH/RH",
-    "rating": "4.0",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.2",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 44
+    "stockQuantity": 40,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "3.3kg",
+      "dimensions": "26cm x 20cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 100,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A4458",
+    "barcode": "4735592615616",
+    "installationTime": "90 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 57,
     "name": "VW Golf/Jetta MK1/3/Polo 1 1.4-2.0",
-    "price": "$168.75",
+    "price": "R168.75",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A1309",
     "description": "*4 Pin",
-    "rating": "4.5",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 43
+    "stockQuantity": 36,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.8kg",
+      "dimensions": "37cm x 18cm x 13cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 162,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A1309",
+    "barcode": "3903034271573",
+    "installationTime": "49 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 58,
     "name": "VW Golf MK7/Amarok/",
-    "price": "$297.00",
+    "price": "R297.00",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A13221",
     "description": "VOLKSWAGEN VW Golf MK7/Amarok/",
     "rating": "4.9",
-    "image": "/api/placeholder/300/200",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 22
+    "stockQuantity": 6,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.4kg",
+      "dimensions": "21cm x 16cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 14,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A13221",
+    "barcode": "1848049144706",
+    "installationTime": "89 minutes",
+    "difficulty": "Advanced"
   },
   {
     "id": 59,
     "name": "VW Golf/Jetta MK6/Polo 4/T5/Amarok/",
-    "price": "$2.70",
+    "price": "R2.70",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A8740",
     "description": "VOLKSWAGEN VW Golf/Jetta MK6/Polo 4/T5/Amarok/",
-    "rating": "4.5",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.6",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 52
+    "stockQuantity": 40,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.8kg",
+      "dimensions": "14cm x 13cm x 17cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 35,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A8740",
+    "barcode": "8206175463717",
+    "installationTime": "115 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 60,
     "name": "VW Golf/Jetta MK5/",
-    "price": "$2.70",
+    "price": "R2.70",
     "category": "Engine",
     "brand": "VOLKSWAGEN",
     "productCode": "A5186C",
     "description": "*Engine Codes: BVZ/BLY/AXX/BWA",
-    "rating": "4.8",
-    "image": "/api/placeholder/300/200",
-    "inStock": true,
-    "stockQuantity": 20
+    "rating": "3.8",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": false,
+    "stockQuantity": 12,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.4kg",
+      "dimensions": "22cm x 14cm x 12cm",
+      "material": "High-grade Steel",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "High performance",
+        "Fuel efficient",
+        "Durable construction",
+        "Easy installation"
+      ]
+    },
+    "reviews": 70,
+    "tags": [
+      "Engine",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5186C",
+    "barcode": "7899593910131",
+    "installationTime": "52 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 61,
     "name": "VW Golf/Jetta MK5",
-    "price": "$472.50",
+    "price": "R472.50",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A5147",
     "description": "VOLKSWAGEN VW Golf/Jetta MK5",
-    "rating": "4.6",
-    "image": "/api/placeholder/300/200",
-    "inStock": true,
-    "stockQuantity": 16
+    "rating": "4.0",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
+    "inStock": false,
+    "stockQuantity": 12,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.0kg",
+      "dimensions": "34cm x 15cm x 10cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 55,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5147",
+    "barcode": "7018610640172",
+    "installationTime": "136 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 62,
     "name": "VW Golf/Jetta MK3",
-    "price": "$324.00",
+    "price": "R324.00",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A1683",
     "description": "VOLKSWAGEN VW Golf/Jetta MK3",
-    "rating": "3.8",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.4",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 36
+    "stockQuantity": 44,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "1.2kg",
+      "dimensions": "14cm x 14cm x 12cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 29,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A1683",
+    "barcode": "3631349635768",
+    "installationTime": "73 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 63,
     "name": "VW Polo 2/3/Vivo Classic",
-    "price": "$256.50",
+    "price": "R256.50",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A5781",
     "description": "VOLKSWAGEN VW Polo 2/3/Vivo Classic",
-    "rating": "4.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "3.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 12
+    "stockQuantity": 37,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "0.9kg",
+      "dimensions": "25cm x 17cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 19,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5781",
+    "barcode": "9469635407262",
+    "installationTime": "140 minutes",
+    "difficulty": "Easy"
   },
   {
     "id": 64,
     "name": "VW Polo 1 Playa/Polo 2/3/Vivo",
-    "price": "$290.25",
+    "price": "R290.25",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A5607",
     "description": "*Hatch",
-    "rating": "3.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.5",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 42
+    "stockQuantity": 23,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.5kg",
+      "dimensions": "38cm x 11cm x 8cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 41,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A5607",
+    "barcode": "7788574153750",
+    "installationTime": "53 minutes",
+    "difficulty": "Moderate"
   },
   {
     "id": 65,
     "name": "VW Golf/Jetta MK5",
-    "price": "$364.50",
+    "price": "R364.50",
     "category": "Auto Parts",
     "brand": "VOLKSWAGEN",
     "productCode": "A6347",
     "description": "VOLKSWAGEN VW Golf/Jetta MK5",
-    "rating": "4.7",
-    "image": "/api/placeholder/300/200",
+    "rating": "4.9",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop",
     "inStock": true,
-    "stockQuantity": 6
+    "stockQuantity": 34,
+    "details": {
+      "warranty": "12 months",
+      "origin": "OEM Quality",
+      "weight": "4.9kg",
+      "dimensions": "31cm x 16cm x 3cm",
+      "material": "Steel/Aluminum",
+      "compatibility": "Compatible with VOLKSWAGEN vehicles",
+      "features": [
+        "Premium quality",
+        "Reliable performance",
+        "Easy installation",
+        "Long lasting"
+      ]
+    },
+    "reviews": 108,
+    "tags": [
+      "Auto Parts",
+      "VOLKSWAGEN",
+      "OEM",
+      "Quality"
+    ],
+    "sku": "MSA-A6347",
+    "barcode": "6217400198754",
+    "installationTime": "140 minutes",
+    "difficulty": "Easy"
   }
 ]

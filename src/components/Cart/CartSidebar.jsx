@@ -15,7 +15,7 @@ const CartSidebar = () => {
 
   const formatPrice = (price) => {
     if (typeof price === 'string') {
-      return parseFloat(price.replace('$', '')).toFixed(2)
+      return parseFloat(price.replace('R', '')).toFixed(2)
     }
     return price.toFixed(2)
   }
@@ -105,7 +105,7 @@ const CartSidebar = () => {
                       {/* Price */}
                       <div className="mt-2 text-right">
                         <span className="text-white font-semibold">
-                          ${(formatPrice(item.price) * item.quantity).toFixed(2)}
+                          R{(formatPrice(item.price) * item.quantity).toFixed(2)}
                         </span>
                       </div>
                     </div>
@@ -122,7 +122,7 @@ const CartSidebar = () => {
             {/* Total */}
             <div className="flex justify-between items-center">
               <span className="text-lg font-semibold text-white">Total:</span>
-              <span className="text-xl font-bold text-white">${total.toFixed(2)}</span>
+              <span className="text-xl font-bold text-white">R{total.toFixed(2)}</span>
             </div>
             
             {/* Action Buttons */}

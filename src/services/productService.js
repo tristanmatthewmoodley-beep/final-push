@@ -89,14 +89,14 @@ class ProductService {
 
     if (minPrice !== undefined) {
       filtered = filtered.filter(product => {
-        const price = parseFloat(product.price.replace('$', ''))
+        const price = parseFloat(product.price.replace('R', ''))
         return price >= minPrice
       })
     }
 
     if (maxPrice !== undefined) {
       filtered = filtered.filter(product => {
-        const price = parseFloat(product.price.replace('$', ''))
+        const price = parseFloat(product.price.replace('R', ''))
         return price <= maxPrice
       })
     }
@@ -129,14 +129,14 @@ class ProductService {
         return sorted.sort((a, b) => b.name.localeCompare(a.name))
       case 'price-asc':
         return sorted.sort((a, b) => {
-          const priceA = parseFloat(a.price.replace('$', ''))
-          const priceB = parseFloat(b.price.replace('$', ''))
+          const priceA = parseFloat(a.price.replace('R', ''))
+          const priceB = parseFloat(b.price.replace('R', ''))
           return priceA - priceB
         })
       case 'price-desc':
         return sorted.sort((a, b) => {
-          const priceA = parseFloat(a.price.replace('$', ''))
-          const priceB = parseFloat(b.price.replace('$', ''))
+          const priceA = parseFloat(a.price.replace('R', ''))
+          const priceB = parseFloat(b.price.replace('R', ''))
           return priceB - priceA
         })
       case 'rating-desc':
@@ -150,7 +150,7 @@ class ProductService {
 
   // Get price range
   getPriceRange() {
-    const prices = this.products.map(product => parseFloat(product.price.replace('$', '')))
+    const prices = this.products.map(product => parseFloat(product.price.replace('R', '')))
     return {
       min: Math.min(...prices),
       max: Math.max(...prices)

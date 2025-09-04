@@ -1,19 +1,29 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Menu, X, Search, ShoppingCart, User, Heart, BarChart3 } from 'lucide-react'
+import { Menu, X, Search, ShoppingCart, User, Heart, BarChart3, LogOut } from 'lucide-react'
 import useCartStore from '../store/cartStore'
 import useWishlistStore from '../store/wishlistStore'
 import useComparisonStore from '../store/comparisonStore'
+import useAuthStore from '../store/authStore'
+import toast from 'react-hot-toast'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [showUserMenu, setShowUserMenu] = useState(false)
   const { toggleCart, getCartItemCount } = useCartStore()
   const { getWishlistItemCount } = useWishlistStore()
   const { getComparisonItemCount } = useComparisonStore()
+  const { user, isAuthenticated, logout } = useAuthStore()
 
   const cartItemCount = getCartItemCount()
   const wishlistItemCount = getWishlistItemCount()
   const comparisonItemCount = getComparisonItemCount()
+
+  const handleLogout = () => {
+    logout()
+    setShowUserMenu(false)
+    toast.success('Logged out successfully')
+  }
 
   return (
     <header className="bg-car-black border-b border-car-light-gray sticky top-0 z-50">
@@ -73,9 +83,52 @@ const Header = () => {
               )}
             </Link>
 
-            <button className="text-white hover:text-gray-300 transition-colors">
-              <User size={20} />
-            </button>
+            {/* User Menu */}
+            <div className="relative">
+              {isAuthenticated ? (
+                <div>
+                  <button
+                    onClick={() => setShowUserMenu(!showUserMenu)}
+                    className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors"
+                  >
+                    <User size={20} />
+                    <span className="hidden md:block">{user?.name}</span>
+                  </button>
+
+                  {showUserMenu && (
+                    <div className="absolute right-0 mt-2 w-48 bg-car-gray border border-car-light-gray rounded-lg shadow-lg z-50">
+                      <div className="py-1">
+                        <Link
+                          to="/profile"
+                          className="block px-4 py-2 text-white hover:bg-car-light-gray"
+                          onClick={() => setShowUserMenu(false)}
+                        >
+                          Profile
+                        </Link>
+                        <Link
+                          to="/orders"
+                          className="block px-4 py-2 text-white hover:bg-car-light-gray"
+                          onClick={() => setShowUserMenu(false)}
+                        >
+                          Orders
+                        </Link>
+                        <button
+                          onClick={handleLogout}
+                          className="w-full text-left px-4 py-2 text-white hover:bg-car-light-gray flex items-center"
+                        >
+                          <LogOut className="w-4 h-4 mr-2" />
+                          Logout
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <Link to="/login" className="text-white hover:text-gray-300 transition-colors">
+                  <User size={20} />
+                </Link>
+              )}
+            </div>
 
             <button
               onClick={toggleCart}

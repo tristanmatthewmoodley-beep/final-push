@@ -1,11 +1,12 @@
 import { Star, ShoppingCart, Heart, BarChart3 } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import useCartStore from '../store/cartStore'
 import useWishlistStore from '../store/wishlistStore'
 import useComparisonStore from '../store/comparisonStore'
 import toast from 'react-hot-toast'
 
 const ProductCard = ({ product }) => {
-  const { name, price, image, rating, category } = product
+  const { id, name, price, image, rating, category, brand, inStock } = product
   const { addItem: addToCart, openCart } = useCartStore()
   const { addItem: addToWishlist, isInWishlist, removeItem: removeFromWishlist } = useWishlistStore()
   const { addItem: addToComparison, isInComparison, removeItem: removeFromComparison } = useComparisonStore()
@@ -44,25 +45,38 @@ const ProductCard = ({ product }) => {
   }
 
   return (
-    <div className="card group cursor-pointer">
+    <div className="card group">
       <div className="relative overflow-hidden rounded-lg mb-4">
-        <div className="w-full h-48 bg-car-light-gray flex items-center justify-center">
-          {/* Placeholder for product image */}
-          <div className="text-gray-500 text-center">
-            <div className="w-16 h-16 mx-auto mb-2 bg-gray-600 rounded-lg flex items-center justify-center">
-              <span className="text-2xl">🔧</span>
+        <Link to={`/product/${id}`} className="block">
+          <img
+            src={image}
+            alt={name}
+            className="w-full h-48 object-cover bg-car-light-gray group-hover:scale-105 transition-transform duration-300"
+            onError={(e) => {
+              e.target.src = 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop'
+            }}
+          />
+          {!inStock && (
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+              <span className="text-white font-semibold">Out of Stock</span>
             </div>
-            <p className="text-sm">Product Image</p>
-          </div>
-        </div>
+          )}
+        </Link>
+
         <div className="absolute top-2 left-2">
           <span className="bg-white text-car-black px-2 py-1 rounded text-xs font-medium">
             {category}
           </span>
         </div>
 
+        <div className="absolute top-2 right-2">
+          <span className="bg-car-black bg-opacity-75 text-white px-2 py-1 rounded text-xs font-medium">
+            {brand}
+          </span>
+        </div>
+
         {/* Action buttons */}
-        <div className="absolute top-2 right-2 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className="absolute bottom-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
           <button
             onClick={handleWishlistToggle}
             className={`p-2 rounded-lg transition-colors ${
@@ -87,9 +101,11 @@ const ProductCard = ({ product }) => {
       </div>
 
       <div className="space-y-2">
-        <h3 className="text-lg font-semibold text-white group-hover:text-gray-300 transition-colors">
-          {name}
-        </h3>
+        <Link to={`/product/${id}`}>
+          <h3 className="text-lg font-semibold text-white group-hover:text-gray-300 transition-colors">
+            {name}
+          </h3>
+        </Link>
 
         <div className="flex items-center space-x-1">
           {[...Array(5)].map((_, i) => (
@@ -110,10 +126,20 @@ const ProductCard = ({ product }) => {
           <span className="text-xl font-bold text-white">{price}</span>
           <button
             onClick={handleAddToCart}
-            className="bg-white text-car-black p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            disabled={!inStock}
+            className="bg-white text-car-black p-2 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <ShoppingCart size={18} />
           </button>
+        </div>
+
+        {/* Stock indicator */}
+        <div className="mt-2">
+          {inStock ? (
+            <span className="text-green-400 text-xs">✓ In Stock</span>
+          ) : (
+            <span className="text-red-400 text-xs">✗ Out of Stock</span>
+          )}
         </div>
       </div>
     </div>

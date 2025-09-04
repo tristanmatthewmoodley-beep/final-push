@@ -44,7 +44,7 @@ function parseProductsFromText() {
             if (priceMatch) {
               const originalPrice = parseFloat(priceMatch[1].replace(',', ''));
               const markedUpPrice = originalPrice * 1.35; // 35% markup
-              price = `$${markedUpPrice.toFixed(2)}`;
+              price = `R${markedUpPrice.toFixed(2)}`;
             }
             break; // Stop looking after finding price
           }
@@ -72,9 +72,60 @@ function parseProductsFromText() {
         else if (fullText.includes('exhaust')) category = 'Exhaust';
         else if (fullText.includes('clutch') || fullText.includes('gearbox')) category = 'Transmission';
         else if (fullText.includes('wiper')) category = 'Accessories';
+
+        // Generate product image based on category
+        const getProductImage = (category, productCode) => {
+          const imageMap = {
+            'Brakes': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop',
+            'Engine': 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop',
+            'Filters': 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=300&h=200&fit=crop',
+            'Suspension': 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300&h=200&fit=crop',
+            'Lighting': 'https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=300&h=200&fit=crop',
+            'Electrical': 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop',
+            'Body Parts': 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=300&h=200&fit=crop',
+            'Interior': 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=200&fit=crop',
+            'Exhaust': 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=200&fit=crop',
+            'Transmission': 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop',
+            'Accessories': 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=200&fit=crop'
+          };
+          return imageMap[category] || 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=300&h=200&fit=crop';
+        };
+
+        // Generate additional product details
+        const generateProductDetails = (category, name, brand) => {
+          const details = {
+            warranty: '12 months',
+            origin: 'OEM Quality',
+            weight: `${(Math.random() * 5 + 0.5).toFixed(1)}kg`,
+            dimensions: `${Math.floor(Math.random() * 30 + 10)}cm x ${Math.floor(Math.random() * 20 + 5)}cm x ${Math.floor(Math.random() * 15 + 3)}cm`,
+            material: category === 'Brakes' ? 'Ceramic/Steel' :
+                     category === 'Engine' ? 'High-grade Steel' :
+                     category === 'Filters' ? 'Premium Filter Media' :
+                     category === 'Lighting' ? 'LED/Halogen' : 'Steel/Aluminum',
+            compatibility: `Compatible with ${brand} vehicles`,
+            features: []
+          };
+
+          // Add category-specific features
+          if (category === 'Brakes') {
+            details.features = ['Superior stopping power', 'Low dust formula', 'Noise-free operation', 'Extended lifespan'];
+          } else if (category === 'Engine') {
+            details.features = ['High performance', 'Fuel efficient', 'Durable construction', 'Easy installation'];
+          } else if (category === 'Filters') {
+            details.features = ['High filtration efficiency', 'Long service life', 'Easy replacement', 'OEM specifications'];
+          } else if (category === 'Lighting') {
+            details.features = ['Bright illumination', 'Energy efficient', 'Long lifespan', 'Easy installation'];
+          } else {
+            details.features = ['Premium quality', 'Reliable performance', 'Easy installation', 'Long lasting'];
+          }
+
+          return details;
+        };
         
         // Only add if we have essential info
         if (brand && name && price) {
+          const productDetails = generateProductDetails(category, name, brand);
+
           products.push({
             id: currentId++,
             name: name.length > 50 ? name.substring(0, 50) + '...' : name,
@@ -84,9 +135,16 @@ function parseProductsFromText() {
             productCode: productCode,
             description: description || `${brand} ${name}`,
             rating: (Math.random() * 1.5 + 3.5).toFixed(1), // Random rating between 3.5-5.0
-            image: "/api/placeholder/300/200",
+            image: getProductImage(category, productCode),
             inStock: Math.random() > 0.1, // 90% chance of being in stock
-            stockQuantity: Math.floor(Math.random() * 50) + 5
+            stockQuantity: Math.floor(Math.random() * 50) + 5,
+            details: productDetails,
+            reviews: Math.floor(Math.random() * 200) + 10, // Random review count
+            tags: [category, brand, 'OEM', 'Quality'],
+            sku: `MSA-${productCode}`,
+            barcode: `${Math.floor(Math.random() * 9000000000000) + 1000000000000}`,
+            installationTime: `${Math.floor(Math.random() * 120) + 30} minutes`,
+            difficulty: ['Easy', 'Moderate', 'Advanced'][Math.floor(Math.random() * 3)]
           });
         }
       }

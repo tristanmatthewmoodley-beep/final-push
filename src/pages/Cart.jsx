@@ -14,14 +14,14 @@ const Cart = () => {
 
   const formatPrice = (price) => {
     if (typeof price === 'string') {
-      return parseFloat(price.replace('$', '')).toFixed(2)
+      return parseFloat(price.replace('R', '')).toFixed(2)
     }
     return price.toFixed(2)
   }
 
   const total = getCartTotal()
   const itemCount = getCartItemCount()
-  const shipping = total > 100 ? 0 : 15.99
+  const shipping = total > 500 ? 0 : 99.99 // Free shipping over R500
   const finalTotal = total + shipping
 
   if (items.length === 0) {
@@ -83,7 +83,7 @@ const Cart = () => {
                       </h3>
                       <p className="text-gray-400 text-sm mb-2">{item.category}</p>
                       <p className="text-white font-semibold">
-                        ${formatPrice(item.price)}
+                        R{formatPrice(item.price)}
                       </p>
                     </div>
                     
@@ -110,7 +110,7 @@ const Cart = () => {
                       {/* Subtotal */}
                       <div className="text-right min-w-[80px]">
                         <p className="text-white font-semibold">
-                          ${(formatPrice(item.price) * item.quantity).toFixed(2)}
+                          R{(formatPrice(item.price) * item.quantity).toFixed(2)}
                         </p>
                       </div>
                       
@@ -146,26 +146,26 @@ const Cart = () => {
               <div className="space-y-4">
                 <div className="flex justify-between">
                   <span className="text-gray-400">Subtotal</span>
-                  <span className="text-white">${total.toFixed(2)}</span>
+                  <span className="text-white">R{total.toFixed(2)}</span>
                 </div>
-                
+
                 <div className="flex justify-between">
                   <span className="text-gray-400">Shipping</span>
                   <span className="text-white">
-                    {shipping === 0 ? 'Free' : `$${shipping.toFixed(2)}`}
+                    {shipping === 0 ? 'Free' : `R${shipping.toFixed(2)}`}
                   </span>
                 </div>
-                
+
                 {shipping > 0 && (
                   <p className="text-sm text-gray-400">
-                    Free shipping on orders over $100
+                    Free shipping on orders over R500
                   </p>
                 )}
-                
+
                 <div className="border-t border-car-light-gray pt-4">
                   <div className="flex justify-between text-lg font-semibold">
                     <span className="text-white">Total</span>
-                    <span className="text-white">${finalTotal.toFixed(2)}</span>
+                    <span className="text-white">R{finalTotal.toFixed(2)}</span>
                   </div>
                 </div>
                 
