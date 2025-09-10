@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-car-black text-white font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-white text-car-black px-6 py-3 rounded-lg font-medium hover:bg-gray-100 active:bg-gray-200 transition-colors duration-200 touch-manipulation min-h-[44px] flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-car-black active:bg-gray-100 active:text-car-black transition-colors duration-200 touch-manipulation min-h-[44px] flex items-center justify-center;
+  }
+
+  .card {
+    @apply bg-car-gray border border-car-light-gray rounded-lg p-4 md:p-6 hover:border-gray-600 transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply bg-car-gray border border-car-light-gray rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-200 min-h-[44px];
+  }
+
+  /* Mobile-specific utilities */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] touch-manipulation;
+  }
+
+  .mobile-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .mobile-text {
+    @apply text-sm sm:text-base;
+  }
+}
